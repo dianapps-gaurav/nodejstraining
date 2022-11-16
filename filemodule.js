@@ -15,9 +15,4 @@ read.on("data",(chunk) =>{
     console.log(chunk.toString());
 })
 
-console.log(__dirname);
-console.log(__filename);
-const read = fs.createReadStream('child.js');
-read.on("data",(chunk) =>{
-    console.log(chunk.toString());
-})
+
